@@ -9,6 +9,7 @@
     "api-all": "concurrently \"npm run dev\" \"npm run fastapi-dev\"",
     "build": "next build",
     "start": "next start",
+    "setup": "npm install && pip install -r requirements.txt",
     "lint": "next lint"
   },
   "dependencies": {
